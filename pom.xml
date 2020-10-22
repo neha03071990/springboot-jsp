@@ -44,10 +44,12 @@
      <distributionManagement>
   <repository>
     <id>nexus</id>
+      <name> nexus release repository</name>
     <url>http://3.129.25.50:8081/repository/release-repo</url>
   </repository>
   <snapshotRepository>
     <id>nexus</id>
+      <name>Nexus Release repository</name>
     <url>http://3.129.25.50:8081/repository/snapshot-repo/</url>
   </snapshotRepository>
 </distributionManagement>
